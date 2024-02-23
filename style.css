@@ -14,7 +14,7 @@ body {
 }
 
 /* Estilos para la barra superior */
-.barra.superior {
+.barra-superior {
     background-color: rgba(255, 255, 255, 0);
     position: fixed;
     width: 100%;
@@ -22,19 +22,19 @@ body {
     text-transform: uppercase;
 }
 
-.barra.superior p {
+.barra-superior p {
     color:azure;
     display: inline-block;
     margin: 0 10px;
     font-weight: bold;
 }
 
-.barra.superior a {
+.barra-superior a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.barra.superior a:hover {
+.barra-superior a:hover {
     color: green; /* Cambia el color al pasar el cursor sobre el enlace */
 }
 
