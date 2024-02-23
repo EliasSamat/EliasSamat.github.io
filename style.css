@@ -1,0 +1,80 @@
+ 
+body {
+    background-image: url('image/empanadas.jpg'); /* Ruta de tu imagen de fondo */
+    background-size:auto; /* Ajusta la imagen para cubrir todo el área del cuerpo */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Fija la imagen para que no se mueva al hacer scroll */
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+} 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para la barra superior */
+.barra.superior {
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    text-transform: uppercase;
+}
+
+.barra.superior p {
+    color:azure;
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.barra.superior a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.barra.superior a:hover {
+    color: green; /* Cambia el color al pasar el cursor sobre el enlace */
+}
+
+/* Estilos para el contenido principal */
+.inicio {
+    background-color: rgba(128, 128, 128, 0.5); /* Gris transparente */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 150px; /* Espacio para la barra superior */
+    max-width: 500px; /* Establece el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Añade un espacio alrededor del contenedor */
+    position: relative; /* Activa el posicionamiento relativo */
+    top: 450px; /* Mueve el h1 50 píxeles desde la parte superior */
+    left: 20px; /* Mueve el h1 20 píxeles desde la izquierda */
+}
+
+.inicio button {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px; 
+    position: relative; /* Activa el posicionamiento relativo */
+    top: 10px; /* Mueve el h1 50 píxeles desde la parte superior */
+    left: 5px; /* Mueve el h1 20 píxeles desde la izquierda */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición de color al pasar el cursor */
+}
+
+.inicio button:hover {
+    background-color: rgba(44, 255, 2, 0.521); /* Cambia el color al pasar el cursor sobre el botón */
+}
+
+.cuerpo-pagina {
+color:black ; 
+font-size: 46px;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: relative; /* Activa el posicionamiento relativo */
+top: 50px; /* Mueve el h1 50 píxeles desde la parte superior */
+left: 20px; /* Mueve el h1 20 píxeles desde la izquierda */
+};
