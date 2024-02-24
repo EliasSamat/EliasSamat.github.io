@@ -15,27 +15,27 @@ body {
 
 /* Estilos para la barra superior */
 .barra.superior {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.253);
     position: fixed;
     width: 100%;
     top: 0;
     text-transform: uppercase;
 }
 
-.barra-superior p {
+.barra.superior p {
     color:azure;
     display: inline-block;
     margin: 0 10px;
     font-weight: bold;
 }
 
-.barra-superior a {
+.barra.superior a {
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
-.barra-superior a:hover {
-    color: green; /* Cambia el color al pasar el cursor sobre el enlace */
+.barra.superior a:hover {
+    color: rgb(0, 0, 0); /* Cambia el color al pasar el cursor sobre el enlace */
 }
 
 /* Estilos para el contenido principal */
@@ -71,10 +71,10 @@ body {
 }
 
 .cuerpo-pagina {
-color:black ; 
-font-size: 46px;
+color:rgb(39, 23, 2) ; 
+font-size: 40px;
  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-position: relative; /* Activa el posicionamiento relativo */
+position:relative; /* Activa el posicionamiento relativo */
 top: 50px; /* Mueve el h1 50 píxeles desde la parte superior */
 left: 20px; /* Mueve el h1 20 píxeles desde la izquierda */
 };
