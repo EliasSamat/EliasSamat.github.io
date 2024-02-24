@@ -15,7 +15,7 @@ body {
 
 /* Estilos para la barra superior */
 .barra.superior {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.527);
     position: fixed;
     width: 100%;
     top: 0;
@@ -40,7 +40,7 @@ body {
 
 /* Estilos para el contenido principal */
 .inicio {
-    background-color: rgba(128, 128, 128, 0.5); /* Gris transparente */
+    background-image:linear-gradient(to right, #f5f5f54d, #a2e44b62); /* Gris transparente */
     padding: 20px;
     border-radius: 10px; /* Bordes redondeados */
     text-align: center;
@@ -50,24 +50,24 @@ body {
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     padding: 20px; /* Añade un espacio alrededor del contenedor */
     position: relative; /* Activa el posicionamiento relativo */
-    top: 450px; /* Mueve el h1 50 píxeles desde la parte superior */
+    top: 150px; /* Mueve el h1 50 píxeles desde la parte superior */
     left: 20px; /* Mueve el h1 20 píxeles desde la izquierda */
 }
 
 .inicio button {
-    background-color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px; 
-    position: relative; /* Activa el posicionamiento relativo */
-    top: 10px; /* Mueve el h1 50 píxeles desde la parte superior */
-    left: 5px; /* Mueve el h1 20 píxeles desde la izquierda */
-    cursor: pointer;
-    transition: background-color 0.3s; /* Transición de color al pasar el cursor */
+    background-image: linear-gradient(to right, #485563, #29323C); /* Degradado lineal de un color a otro */
+    color: white; /* Color del texto */
+    border: none; /* Elimina el borde del botón */
+    padding: 10px 20px; /* Ajusta el espaciado interno del botón */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave al cambiar de color */
 }
 
 .inicio button:hover {
-    background-color: rgba(44, 255, 2, 0.521); /* Cambia el color al pasar el cursor sobre el botón */
+    background-color: #3c4440; /* Cambia el color al pasar el cursor sobre el botón */
+    
 }
 
 .cuerpo-pagina {
